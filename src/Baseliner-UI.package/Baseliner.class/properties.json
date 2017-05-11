@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "Baseliner-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baselines"
+	],
+	"name" : "Baseliner",
+	"type" : "normal"
+}

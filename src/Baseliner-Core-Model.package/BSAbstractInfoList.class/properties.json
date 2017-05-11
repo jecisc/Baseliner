@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BSInfo",
+	"category" : "Baseliner-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BSAbstractInfoList",
+	"type" : "normal"
+}

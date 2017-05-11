@@ -1,0 +1,3 @@
+accessing
+baselinesClasses
+	^ MetacelloProjectRegistration baselineClasses

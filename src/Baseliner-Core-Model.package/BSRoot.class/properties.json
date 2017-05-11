@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "CyrilFerlicot 5/11/2017 23:35",
+	"super" : "Object",
+	"category" : "Baseliner-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Instance"
+	],
+	"instvars" : [ ],
+	"name" : "BSRoot",
+	"type" : "normal"
+}

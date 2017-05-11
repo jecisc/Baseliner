@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "CyrilFerlicot 5/12/2017 00:31",
+	"super" : "BSAbstractInfoList",
+	"category" : "Baseliner-Core-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baseline",
+		"root",
+		"workingCopy",
+		"branch"
+	],
+	"name" : "BSBaselineInfo",
+	"type" : "normal"
+}
