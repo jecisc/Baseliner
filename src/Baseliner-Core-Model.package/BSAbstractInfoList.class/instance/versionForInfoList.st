@@ -1,0 +1,3 @@
+versions
+versionForInfoList
+	^ self subclassResponsibility

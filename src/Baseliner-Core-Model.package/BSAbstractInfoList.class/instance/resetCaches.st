@@ -1,0 +1,3 @@
+initialization
+resetCaches
+	packages := nil

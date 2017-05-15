@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BSInfo",
+	"super" : "BSSpecInfo",
 	"category" : "Baseliner-Core-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packages"
+		"workingCopy"
 	],
-	"name" : "BSAbstractInfoList",
+	"name" : "BSPackageInfo",
 	"type" : "normal"
 }

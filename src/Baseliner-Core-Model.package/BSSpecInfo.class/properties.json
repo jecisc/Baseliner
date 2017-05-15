@@ -6,8 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"packages"
+		"spec",
+		"baselineInfo"
 	],
-	"name" : "BSAbstractInfoList",
+	"name" : "BSSpecInfo",
 	"type" : "normal"
 }

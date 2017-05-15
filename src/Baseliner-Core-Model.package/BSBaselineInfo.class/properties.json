@@ -9,7 +9,7 @@
 		"baseline",
 		"root",
 		"workingCopy",
-		"branch"
+		"currentVersion"
 	],
 	"name" : "BSBaselineInfo",
 	"type" : "normal"

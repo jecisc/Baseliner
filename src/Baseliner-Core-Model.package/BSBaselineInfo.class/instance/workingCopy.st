@@ -5,6 +5,5 @@ workingCopy
 	^ workingCopy
 		ifNil: [ | pkg |
 			pkg := MCPackage named: self baseline category asString.
-			pkg hasWorkingCopy
-				ifFalse: [ ^ nil ].
+			pkg hasWorkingCopy ifFalse: [ ^ nil ].
 			workingCopy := pkg workingCopy ]

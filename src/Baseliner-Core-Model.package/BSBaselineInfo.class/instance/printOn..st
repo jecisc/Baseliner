@@ -1,16 +1,12 @@
 printing
 printOn: aStream
 	self name ifNil: [ ^ self ].
-	self flag: #TODO.	"Manage dirty"
-	"self isDirty
-		ifTrue: [ aStream nextPutAll: '* ' ]."
+	self flag: #TODO.	"If there is an integration to Iceberg later, the branch should be displayed."
+	
+	self isDirty ifTrue: [ aStream << '* ' ].
+		
 	aStream << self name baselineBaseName.
-	self flag: #TODO.	"Manage current version"
-	"(cv := self currentVersion) notNil
-		ifTrue: [ aStream space;<< cv versionString ]."
-	self packageSignature
-		ifNotEmpty: [ :sign | 
-			aStream
-				<< $(;
-				<< sign;
-				<< $) ]
+	
+	self currentVersion printVersionOn: aStream.
+	
+	self printPackageSignatureOn: aStream
